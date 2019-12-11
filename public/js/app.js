@@ -327,6 +327,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -347,7 +349,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".myHeight[data-v-299e239e]{\n  height: 45rem;\n}\n\n/* Hide scrollbar for Chrome, Safari and Opera */\n.example[data-v-299e239e]::-webkit-scrollbar {\n  display: none;\n}\n\n/* Hide scrollbar for IE and Edge */\n.example[data-v-299e239e] {\n  -ms-overflow-style: none;\n}\n", ""]);
+exports.push([module.i, ".myHeight[data-v-299e239e]{\n  height: 45rem;\n}\n\n/* Hide scrollbar for Chrome, Safari and Opera */\n.example[data-v-299e239e]::-webkit-scrollbar {\n  display: none;\n}\n\n/* Hide scrollbar for IE and Edge */\n.example[data-v-299e239e] {\n  -ms-overflow-style: none;\n}\n.inputbg[data-v-299e239e]{\n  background: #f1f0f0;\n}\n.receiver-message-bg[data-v-299e239e]{\n  background: #0099ff;\n}\n", ""]);
 
 // exports
 
@@ -1485,41 +1487,35 @@ var staticRenderFns = [
                 "example myHeight w-full max-w-sm bg-white overflow-y-auto border-r border-b border-gray-300"
             },
             [
-              _c(
-                "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
-                [
-                  _c("div", { staticClass: "flex items-center" }, [
-                    _c("div", { staticClass: "flex-shrink-0 flex" }, [
-                      _c("img", {
-                        staticClass: "w-12 h-12 object-cover rounded-full",
-                        attrs: {
-                          src: "https://picsum.photos/id/25/536/354",
-                          alt: "profile picture"
-                        }
-                      })
+              _c("div", { staticClass: "p-1 hover:inputbg cursor-pointer" }, [
+                _c("div", { staticClass: "flex items-center" }, [
+                  _c("div", { staticClass: "flex-shrink-0 flex" }, [
+                    _c("img", {
+                      staticClass: "w-12 h-12 object-cover rounded-full",
+                      attrs: {
+                        src: "https://picsum.photos/id/25/536/354",
+                        alt: "profile picture"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "flex-col flex ml-5" }, [
+                    _c("span", { staticClass: "font-semibold text-gray-800" }, [
+                      _vm._v("Chinmay anand")
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "flex-col flex ml-5" }, [
-                      _c(
-                        "span",
-                        { staticClass: "font-semibold text-gray-800" },
-                        [_vm._v("Chinmay anand")]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "p",
-                        { staticClass: "text-xs text-gray-800 font-normal" },
-                        [
-                          _vm._v(
-                            "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
-                          )
-                        ]
-                      )
-                    ])
+                    _c(
+                      "p",
+                      { staticClass: "text-xs text-gray-800 font-normal" },
+                      [
+                        _vm._v(
+                          "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
+                        )
+                      ]
+                    )
                   ])
-                ]
-              ),
+                ])
+              ]),
               _vm._v(" "),
               _c(
                 "div",
@@ -1977,7 +1973,7 @@ var staticRenderFns = [
                               "p",
                               {
                                 staticClass:
-                                  "text-md text-white font-normal rounded p-3 mb-3 bg-blue-500 text-right"
+                                  "text-md text-white font-normal rounded p-3 mb-3 receiver-message-bg text-right"
                               },
                               [
                                 _vm._v(
@@ -2001,7 +1997,7 @@ var staticRenderFns = [
                               "p",
                               {
                                 staticClass:
-                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                                  "text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left"
                               },
                               [
                                 _vm._v(
@@ -2025,7 +2021,7 @@ var staticRenderFns = [
                               "p",
                               {
                                 staticClass:
-                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                                  "text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left"
                               },
                               [
                                 _vm._v(
@@ -2049,7 +2045,7 @@ var staticRenderFns = [
                               "p",
                               {
                                 staticClass:
-                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                                  "text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left"
                               },
                               [
                                 _vm._v(
@@ -2073,7 +2069,7 @@ var staticRenderFns = [
                               "p",
                               {
                                 staticClass:
-                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                                  "text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left"
                               },
                               [
                                 _vm._v(
@@ -2097,7 +2093,7 @@ var staticRenderFns = [
                               "p",
                               {
                                 staticClass:
-                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                                  "text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left"
                               },
                               [
                                 _vm._v(
@@ -2111,10 +2107,10 @@ var staticRenderFns = [
                     ]
                   ),
                   _vm._v(" "),
-                  _c("div", { staticClass: "block p-3" }, [
+                  _c("div", { staticClass: "block px-3 py-1" }, [
                     _c("input", {
                       staticClass:
-                        "bg-white border hover:border-gray-500 focus:outline-none focus:border-gray-500 p-3 rounded w-full text-md font-medium",
+                        "inputbg border hover:border-gray-500 focus:outline-none\n                    focus:border-gray-500 p-2 rounded-lg w-full text-md font-medium",
                       attrs: {
                         type: "text",
                         placeholder: "Enter your message here..."

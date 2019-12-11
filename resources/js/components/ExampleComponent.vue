@@ -3,7 +3,7 @@
         <div class="flex block justify-between relative">
             <div class="example myHeight w-full max-w-sm bg-white overflow-y-auto border-r border-b border-gray-300">
                 <!--left side card starts from here-->
-                <div class="p-1 hover:bg-gray-100 cursor-pointer">
+                <div class="p-1 hover:inputbg cursor-pointer">
                     <div class="flex items-center">
                         <div class="flex-shrink-0 flex">
                             <img class="w-12 h-12 object-cover rounded-full" src="https://picsum.photos/id/25/536/354" alt="profile picture">
@@ -172,7 +172,7 @@
                        <div class="flex-grow-1 flex-col flex max-w-lg">
                            <div class="flex relative mb-3">
                                <img class="w-12 h-12 object-cover rounded-full absolute left-0 bottom-0" src="https://picsum.photos/id/25/536/354" alt="profile picture">
-                               <p class="text-md text-white font-normal rounded p-3 mb-3 bg-blue-500 text-right">
+                               <p class="text-md text-white font-normal rounded p-3 mb-3 receiver-message-bg text-right">
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur
                                    deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!
@@ -180,7 +180,7 @@
                            </div>
                            <div class="flex relative mb-3">
                                <img class="w-12 h-12 object-cover rounded-full absolute right-0 bottom-0" src="https://picsum.photos/id/25/536/354" alt="profile picture">
-                               <p class="text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left">
+                               <p class="text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left">
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur
                                    deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!
@@ -188,7 +188,7 @@
                            </div>
                            <div class="flex relative mb-3">
                                <img class="w-12 h-12 object-cover rounded-full absolute right-0 bottom-0" src="https://picsum.photos/id/25/536/354" alt="profile picture">
-                               <p class="text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left">
+                               <p class="text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left">
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur
                                    deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!
@@ -196,7 +196,7 @@
                            </div>
                            <div class="flex relative mb-3">
                                <img class="w-12 h-12 object-cover rounded-full absolute right-0 bottom-0" src="https://picsum.photos/id/25/536/354" alt="profile picture">
-                               <p class="text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left">
+                               <p class="text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left">
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur
                                    deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!
@@ -204,7 +204,7 @@
                            </div>
                            <div class="flex relative mb-3">
                                <img class="w-12 h-12 object-cover rounded-full absolute right-0 bottom-0" src="https://picsum.photos/id/25/536/354" alt="profile picture">
-                               <p class="text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left">
+                               <p class="text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left">
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur
                                    deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!
@@ -212,7 +212,7 @@
                            </div>
                            <div class="flex relative mb-3">
                                <img class="w-12 h-12 object-cover rounded-full absolute right-0 bottom-0" src="https://picsum.photos/id/25/536/354" alt="profile picture">
-                               <p class="text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left">
+                               <p class="text-md text-gray-800 font-normal rounded p-3 mb-3 inputbg text-left">
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur
                                    deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!
@@ -221,8 +221,10 @@
                        </div>
                    </div>
                     <!--input-->
-                    <div class="block p-3">
-                        <input type="text" class="bg-white border hover:border-gray-500 focus:outline-none focus:border-gray-500 p-3 rounded w-full text-md font-medium" placeholder="Enter your message here...">
+                    <div class="block px-3 py-1">
+                        <input type="text" class="inputbg border hover:border-gray-500 focus:outline-none
+                        focus:border-gray-500 p-2 rounded-lg w-full text-md font-medium"
+                        placeholder="Enter your message here...">
                     </div>
                 </div>
             </div>
@@ -250,5 +252,11 @@
     /* Hide scrollbar for IE and Edge */
     .example {
         -ms-overflow-style: none;
+    }
+    .inputbg{
+        background: #f1f0f0;
+    }
+    .receiver-message-bg{
+        background: #0099ff;
     }
 </style>
