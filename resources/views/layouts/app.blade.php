@@ -21,11 +21,12 @@
     <style>
         body{
             font-family:'Open Sans', sans-serif;
+
         }
     </style>
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="antialiased subpixel-antialiased">
 {{--        @include('partials.bootstrapNavbar')--}}
         @include('partials.mynav')
         <main>

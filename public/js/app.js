@@ -277,6 +277,56 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -297,7 +347,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".myHeight[data-v-299e239e]{\n  height: 48rem;\n}\n", ""]);
+exports.push([module.i, ".myHeight[data-v-299e239e]{\n  height: 45rem;\n}\n\n/* Hide scrollbar for Chrome, Safari and Opera */\n.example[data-v-299e239e]::-webkit-scrollbar {\n  display: none;\n}\n\n/* Hide scrollbar for IE and Edge */\n.example[data-v-299e239e] {\n  -ms-overflow-style: none;\n}\n", ""]);
 
 // exports
 
@@ -1424,14 +1474,15 @@ var staticRenderFns = [
       "div",
       {
         staticClass:
-          "rounded mx-32 p-5 mt-8 border border-gray-300 overflow-hidden"
+          "rounded mx-auto p-5 mt-8 border border-gray-300 overflow-hidden w-full max-w-6xl"
       },
       [
         _c("div", { staticClass: "flex block justify-between relative" }, [
           _c(
             "div",
             {
-              staticClass: "myHeight w-full max-w-sm bg-white overflow-y-auto"
+              staticClass:
+                "example myHeight w-full max-w-sm bg-white overflow-y-auto border-r border-b border-gray-300"
             },
             [
               _c(
@@ -1458,7 +1509,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1472,7 +1523,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1494,7 +1545,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1508,7 +1559,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1530,7 +1581,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1544,7 +1595,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1566,7 +1617,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1580,7 +1631,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1602,7 +1653,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1616,7 +1667,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1638,10 +1689,10 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
-                            "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
+                            "\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                    "
                           )
                         ]
                       )
@@ -1652,7 +1703,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1674,7 +1725,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1688,7 +1739,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1710,7 +1761,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1724,7 +1775,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1746,7 +1797,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1760,7 +1811,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1782,7 +1833,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1796,7 +1847,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1818,7 +1869,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1832,7 +1883,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
+                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer" },
                 [
                   _c("div", { staticClass: "flex items-center" }, [
                     _c("div", { staticClass: "flex-shrink-0 flex" }, [
@@ -1854,43 +1905,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c(
                         "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
-                        [
-                          _vm._v(
-                            "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
-                          )
-                        ]
-                      )
-                    ])
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "p-1 hover:bg-gray-100 cursor-pointer mt-2" },
-                [
-                  _c("div", { staticClass: "flex items-center" }, [
-                    _c("div", { staticClass: "flex-shrink-0 flex" }, [
-                      _c("img", {
-                        staticClass: "w-12 h-12 object-cover rounded-full",
-                        attrs: {
-                          src: "https://picsum.photos/id/25/536/354",
-                          alt: "profile picture"
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "flex-col flex ml-5" }, [
-                      _c(
-                        "span",
-                        { staticClass: "font-semibold text-gray-800" },
-                        [_vm._v("Chinmay anand")]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "p",
-                        { staticClass: "text-sm text-gray-800 font-normal" },
+                        { staticClass: "text-xs text-gray-800 font-normal" },
                         [
                           _vm._v(
                             "\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim ex impedit?\n                        "
@@ -1907,9 +1922,208 @@ var staticRenderFns = [
           _c(
             "div",
             {
-              staticClass: "flex-1 flex block bg-gray-300 mx-2 overflow-y-auto"
+              staticClass: "myHeight flex-1 flex block bg-white overflow-hidden"
             },
-            [_vm._v("\n            right\n        ")]
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "flex-col flex justify-between w-full relative"
+                },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "bg-white border border-gray-300 block p-3"
+                    },
+                    [
+                      _c(
+                        "span",
+                        { staticClass: "text-lg font-semibold text-gray-800" },
+                        [
+                          _c(
+                            "small",
+                            {
+                              staticClass:
+                                "text-xs text-gray-800 font-normal mr-2"
+                            },
+                            [_vm._v("Conversation with")]
+                          ),
+                          _vm._v("Chinmay anand\n                    ")
+                        ]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "example block flex-1 p-3 overflow-y-auto" },
+                    [
+                      _c(
+                        "div",
+                        { staticClass: "flex-grow-1 flex-col flex max-w-lg" },
+                        [
+                          _c("div", { staticClass: "flex relative mb-3" }, [
+                            _c("img", {
+                              staticClass:
+                                "w-12 h-12 object-cover rounded-full absolute left-0 bottom-0",
+                              attrs: {
+                                src: "https://picsum.photos/id/25/536/354",
+                                alt: "profile picture"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass:
+                                  "text-md text-white font-normal rounded p-3 mb-3 bg-blue-500 text-right"
+                              },
+                              [
+                                _vm._v(
+                                  "\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur\n                               deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!\n                           "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "flex relative mb-3" }, [
+                            _c("img", {
+                              staticClass:
+                                "w-12 h-12 object-cover rounded-full absolute right-0 bottom-0",
+                              attrs: {
+                                src: "https://picsum.photos/id/25/536/354",
+                                alt: "profile picture"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass:
+                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                              },
+                              [
+                                _vm._v(
+                                  "\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur\n                               deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!\n                           "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "flex relative mb-3" }, [
+                            _c("img", {
+                              staticClass:
+                                "w-12 h-12 object-cover rounded-full absolute right-0 bottom-0",
+                              attrs: {
+                                src: "https://picsum.photos/id/25/536/354",
+                                alt: "profile picture"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass:
+                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                              },
+                              [
+                                _vm._v(
+                                  "\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur\n                               deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!\n                           "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "flex relative mb-3" }, [
+                            _c("img", {
+                              staticClass:
+                                "w-12 h-12 object-cover rounded-full absolute right-0 bottom-0",
+                              attrs: {
+                                src: "https://picsum.photos/id/25/536/354",
+                                alt: "profile picture"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass:
+                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                              },
+                              [
+                                _vm._v(
+                                  "\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur\n                               deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!\n                           "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "flex relative mb-3" }, [
+                            _c("img", {
+                              staticClass:
+                                "w-12 h-12 object-cover rounded-full absolute right-0 bottom-0",
+                              attrs: {
+                                src: "https://picsum.photos/id/25/536/354",
+                                alt: "profile picture"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass:
+                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                              },
+                              [
+                                _vm._v(
+                                  "\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur\n                               deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!\n                           "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "flex relative mb-3" }, [
+                            _c("img", {
+                              staticClass:
+                                "w-12 h-12 object-cover rounded-full absolute right-0 bottom-0",
+                              attrs: {
+                                src: "https://picsum.photos/id/25/536/354",
+                                alt: "profile picture"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "p",
+                              {
+                                staticClass:
+                                  "text-md text-white font-normal rounded p-3 mb-3 bg-gray-500 text-left"
+                              },
+                              [
+                                _vm._v(
+                                  "\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque id recusandae. Ab asperiores,\n                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur, consequatur consequuntur\n                               deleniti dicta dolores expedita illo impedit inventore libero nemo nulla placeat praesentium rem repudiandae rerum saepe suscipit, unde!\n                           "
+                                )
+                              ]
+                            )
+                          ])
+                        ]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "block p-3" }, [
+                    _c("input", {
+                      staticClass:
+                        "bg-white border hover:border-gray-500 focus:outline-none focus:border-gray-500 p-3 rounded w-full text-md font-medium",
+                      attrs: {
+                        type: "text",
+                        placeholder: "Enter your message here..."
+                      }
+                    })
+                  ])
+                ]
+              )
+            ]
           )
         ])
       ]
